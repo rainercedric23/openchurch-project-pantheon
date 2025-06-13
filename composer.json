@@ -1,5 +1,5 @@
 {
-    "name": "openchurch-project-pantheon",
+    "name": "drupal/openchurch-project-pantheon",
     "description": "Full composer project template for the OpenChurch distribution made compatible to Pantheon",
     "type": "project",
     "license": "MIT",
