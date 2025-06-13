@@ -1,6 +1,6 @@
 {
-    "name": "pantheon-upstreams/drupal-composer-managed",
-    "description": "Install Drupal 9 with Composer on Pantheon.",
+    "name": "openchurch-project-pantheon",
+    "description": "Full composer project template for the OpenChurch distribution made compatible to Pantheon",
     "type": "project",
     "license": "MIT",
     "repositories": [
@@ -20,10 +20,15 @@
         "drupal/core-recommended": "^10",
         "pantheon-systems/drupal-integrations": "^10",
         "cweagans/composer-patches": "^1.7",
-        "drush/drush": "^11 || ^12"
+        "drush/drush": "^11 || ^12",
+        "drupal/openchurch_core": "dev-3.0.x",
+        "drupal/openchurch_theme": "dev-3.0.x",
+        "drupal/coder": "^8.3"
+
     },
     "require-dev": {
-        "drupal/core-dev": "^10"
+        "drupal/core-dev": "^10",
+        "drupal/devel": "^5.1"
     },
     "conflict": {
         "drupal/drupal": "*"
